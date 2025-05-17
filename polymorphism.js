@@ -18,6 +18,7 @@ class Android extends SmartPhone {
   }
 
   charging() {
+    //overriding method
     //call method charging dari supeClass (smartphone)
     super.charging();
     console.log(`charging ${this.model} with fast charging`);

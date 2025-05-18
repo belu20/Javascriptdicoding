@@ -46,3 +46,14 @@ console.log(power(4, 0.5));
 /**
  * Jangan hapus kode di bawah ini
  */
+//map
+const map = new Map();
+map.set("name", "aras");
+console.log(map.get("name")); // Output: aras
+
+//Rest Operator
+function myFunc(...manyMoreArgs) {
+  console.log("manyMoreArgs", manyMoreArgs);
+}
+
+myFunc("one", "two", "three");
